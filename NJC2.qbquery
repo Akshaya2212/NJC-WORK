@@ -1,0 +1,10 @@
+﻿INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813721, "Prabhakaran","Akshaya","Aynavaram","Chennai");
+SELECT * FROM details d;
+INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813722, "Priya","Lakshmi","porur","Chennai");
+SELECT * FROM details d;
+INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813723, "Nair","Devika","Anna Nagar","Poonamalle");
+SELECT * FROM details d;
+INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813724, "Arvi","Sai","ECR","Chennai");
+SELECT * FROM details d;
+INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813725, "Lakshmi","Mohana","Cochin","kerala");
+SELECT * FROM details d;
