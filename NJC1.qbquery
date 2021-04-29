@@ -1,0 +1,14 @@
+﻿CREATE DATABASE CUSTOMER;
+CREATE TABLE details (
+    CustomerID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813721, "Prabhakaran","Akshaya","Aynavaram","Chennai");
+INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813722, "Priya","Lakshmi","porur","Chennai");
+INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813723, "Nair","Devika","Anna Nagar","Poonamalle");
+INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813724, "Arvi","Sai","ECR","Chennai");
+INSERT INTO details (CustomerID, LastName,FirstName,Address,City)VALUES (1813725, "Lakshmi","Mohana","Cochin","kerala");
+SELECT * FROM details d;
